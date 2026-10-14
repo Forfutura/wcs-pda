@@ -1,0 +1,42 @@
+·.DS_Store
+node_modules
+/dist
+/.idea
+
+# 签名材料 —— 绝不入库（keystore 私钥 + 口令）
+android/hbpda-release.keystore
+android/keystore.properties
+
+# 构建产物 / 本机配置
+*.apk
+*.zip
+*.tar.gz
+/android/app/build
+/android/build
+/android/.gradle
+/android/local.properties
+/android/capacitor-cordova-android-plugins/build
+/deploy/dist
+
+# 本机 Claude 配置
+.claude/settings.local.json
+
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

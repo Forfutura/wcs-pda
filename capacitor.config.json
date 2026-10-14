@@ -1,0 +1,13 @@
+{
+  "appId": "com.hb.pda",
+  "appName": "HB-PDA",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

@@ -1,0 +1,59 @@
+import Vue from 'vue'
+import {
+    Search,
+    Button,
+    NavBar,
+    Icon,
+    Cell,
+    CellGroup,
+    Tab,
+    Tabs,
+    DropdownMenu,
+    DropdownItem,
+    Divider,
+    Empty,
+    Form,
+    Field,
+    Loading,
+    Notify,
+    Radio,
+    RadioGroup,
+    Dialog,
+    Progress,
+    Checkbox,
+    Popover,
+    PullRefresh,
+    Grid,
+    GridItem,
+    NoticeBar,
+    Switch
+} from 'vant'
+
+
+Vue.use(NoticeBar);
+Vue.use(Grid);
+Vue.use(GridItem);
+Vue.use(Popover);
+Vue.use(Cell);
+Vue.use(CellGroup);
+Vue.use(DropdownMenu);
+Vue.use(DropdownItem);
+Vue.use(Tab);
+Vue.use(Tabs);
+Vue.use(Search);
+Vue.use(Button);
+Vue.use(Icon);
+Vue.use(NavBar);
+Vue.use(Divider);
+Vue.use(Empty);
+Vue.use(Form);
+Vue.use(Field);
+Vue.use(Loading);
+Vue.use(Notify);
+Vue.use(Radio);
+Vue.use(RadioGroup);
+Vue.use(Dialog);
+Vue.use(Progress);
+Vue.use(Checkbox);
+Vue.use(PullRefresh);
+Vue.use(Switch);
